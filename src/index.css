@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+  background-color: aliceblue;
+
+}
+h1{
+  background-color: white;
+  letter-spacing: 3px;
+  margin-top: 5px;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+
+}
+
+.main_content{
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  gap: 30px;
+}
+.main_content button{
+  flex-wrap: wrap;
+}
+.main_content textarea{
+  font-weight: 800;
+  font-size: 0.9rem;
+  /* text-transform: capitalize; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 1rem;
+  width: 60vw;
+  height: 90vh;
+  text-align: left;
+  box-shadow: 2px 10px 20px grey;
+  border-radius: 8px;
+  border: 2px;
+  padding-left: 5px;
+}
+button{
+  text-decoration:bold;
+  background-color:black;
+  color: white;
+  font-weight: 1000;
+  font-family: HP Simplified;
+  text-transform: capitalize;
+  padding: 5px 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  letter-spacing: 2px;
+
+ 
+}
+button:hover{
+  cursor: pointer;
+}
+.saved_notes{
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 60vw;
+  height: 50vh;
+  text-align: left;
+  border-radius: 8px;
+  border: 2px solid black;
+  padding-left: 5px;
+}
